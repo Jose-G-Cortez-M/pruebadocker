@@ -99,6 +99,6 @@ class __TwigTemplate_9a2069993e83ca0984d02a71be02b8892e7c07db6e810f852f5c01546b3
 .container.body_default {
     border-top: 8px solid #aaaaaa;
 }
-", "@email/zurb_2/notification/local.css", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
+", "@email/zurb_2/notification/local.css", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
     }
 }

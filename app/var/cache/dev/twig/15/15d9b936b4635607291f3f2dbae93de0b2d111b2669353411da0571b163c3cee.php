@@ -81,6 +81,6 @@ class __TwigTemplate_2e7d94eb613df77f0b0ee3151b9a95ea2b57d146499ed514cd6741f42ce
         return new Source("{{ form_start(form) }}
     {{ form_widget(form) }}
     <button class=\"btn btn-success\" id=\"button\">{{ button_label|default('Save') }}</button>
-{{ form_end(form) }}", "homepage/_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/homepage/_form.html.twig");
+{{ form_end(form) }}", "homepage/_form.html.twig", "/var/www/project/templates/homepage/_form.html.twig");
     }
 }

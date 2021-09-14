@@ -171,6 +171,6 @@ class __TwigTemplate_92be4c83ec2a982e1f5ebfb4681b2e388a929d3134be77295755f843a2f
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/var/www/project/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

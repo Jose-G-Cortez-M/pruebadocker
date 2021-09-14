@@ -189,6 +189,6 @@ class __TwigTemplate_02bf9ca0bdabbf8e89dedc4754330d3fd211ef507329dca5e4a01c74857
 .timeline-graph .timeline-period {
     stroke-width: 0;
 }
-", "@WebProfiler/Collector/time.css.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.css.twig");
+", "@WebProfiler/Collector/time.css.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.css.twig");
     }
 }

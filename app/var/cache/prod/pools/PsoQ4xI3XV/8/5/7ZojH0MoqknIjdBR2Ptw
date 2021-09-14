@@ -1,0 +1,280 @@
+<?php //App__Entity__Movement__CLASSMETADATA__
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+        clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Movement',
+            ],
+            'namespace' => [
+                'App\\Entity',
+            ],
+            'rootEntityName' => [
+                'App\\Entity\\Movement',
+            ],
+            'customRepositoryClassName' => [
+                'App\\Repository\\MovementRepository',
+            ],
+            'identifier' => [
+                [
+                    'id',
+                ],
+            ],
+            'generatorType' => [
+                4,
+            ],
+            'fieldMappings' => [
+                [
+                    'id' => [
+                        'fieldName' => 'id',
+                        'type' => 'integer',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => null,
+                        'id' => true,
+                        'columnName' => 'id',
+                    ],
+                    'orderDate' => [
+                        'fieldName' => 'orderDate',
+                        'type' => 'datetime',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => null,
+                        'columnName' => 'order_date',
+                    ],
+                    'quantity' => [
+                        'fieldName' => 'quantity',
+                        'type' => 'float',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => null,
+                        'columnName' => 'quantity',
+                    ],
+                    'description' => [
+                        'fieldName' => 'description',
+                        'type' => 'text',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'description',
+                    ],
+                    'totalCost' => [
+                        'fieldName' => 'totalCost',
+                        'type' => 'float',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'total_cost',
+                    ],
+                    'commercialValue' => [
+                        'fieldName' => 'commercialValue',
+                        'type' => 'float',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'commercial_value',
+                    ],
+                ],
+            ],
+            'fieldNames' => [
+                [
+                    'id' => 'id',
+                    'order_date' => 'orderDate',
+                    'quantity' => 'quantity',
+                    'description' => 'description',
+                    'total_cost' => 'totalCost',
+                    'commercial_value' => 'commercialValue',
+                ],
+            ],
+            'columnNames' => [
+                [
+                    'id' => 'id',
+                    'orderDate' => 'order_date',
+                    'quantity' => 'quantity',
+                    'description' => 'description',
+                    'totalCost' => 'total_cost',
+                    'commercialValue' => 'commercial_value',
+                ],
+            ],
+            'table' => [
+                [
+                    'name' => 'movement',
+                ],
+            ],
+            'associationMappings' => [
+                [
+                    'tools' => [
+                        'fieldName' => 'tools',
+                        'joinColumns' => [
+                            [
+                                'name' => 'tools_id',
+                                'unique' => false,
+                                'nullable' => true,
+                                'onDelete' => null,
+                                'columnDefinition' => null,
+                                'referencedColumnName' => 'id',
+                            ],
+                        ],
+                        'cascade' => [],
+                        'inversedBy' => 'movements',
+                        'targetEntity' => 'App\\Entity\\Tool',
+                        'fetch' => 2,
+                        'type' => 2,
+                        'mappedBy' => null,
+                        'isOwningSide' => true,
+                        'sourceEntity' => 'App\\Entity\\Movement',
+                        'isCascadeRemove' => false,
+                        'isCascadePersist' => false,
+                        'isCascadeRefresh' => false,
+                        'isCascadeMerge' => false,
+                        'isCascadeDetach' => false,
+                        'sourceToTargetKeyColumns' => [
+                            'tools_id' => 'id',
+                        ],
+                        'joinColumnFieldNames' => [
+                            'tools_id' => 'tools_id',
+                        ],
+                        'targetToSourceKeyColumns' => [
+                            'id' => 'tools_id',
+                        ],
+                        'orphanRemoval' => false,
+                    ],
+                    'materials' => [
+                        'fieldName' => 'materials',
+                        'joinColumns' => [
+                            [
+                                'name' => 'materials_id',
+                                'unique' => false,
+                                'nullable' => true,
+                                'onDelete' => null,
+                                'columnDefinition' => null,
+                                'referencedColumnName' => 'id',
+                            ],
+                        ],
+                        'cascade' => [],
+                        'inversedBy' => 'movements',
+                        'targetEntity' => 'App\\Entity\\Material',
+                        'fetch' => 2,
+                        'type' => 2,
+                        'mappedBy' => null,
+                        'isOwningSide' => true,
+                        'sourceEntity' => 'App\\Entity\\Movement',
+                        'isCascadeRemove' => false,
+                        'isCascadePersist' => false,
+                        'isCascadeRefresh' => false,
+                        'isCascadeMerge' => false,
+                        'isCascadeDetach' => false,
+                        'sourceToTargetKeyColumns' => [
+                            'materials_id' => 'id',
+                        ],
+                        'joinColumnFieldNames' => [
+                            'materials_id' => 'materials_id',
+                        ],
+                        'targetToSourceKeyColumns' => [
+                            'id' => 'materials_id',
+                        ],
+                        'orphanRemoval' => false,
+                    ],
+                    'cables' => [
+                        'fieldName' => 'cables',
+                        'joinColumns' => [
+                            [
+                                'name' => 'cables_id',
+                                'unique' => false,
+                                'nullable' => true,
+                                'onDelete' => null,
+                                'columnDefinition' => null,
+                                'referencedColumnName' => 'id',
+                            ],
+                        ],
+                        'cascade' => [
+                            'persist',
+                        ],
+                        'inversedBy' => 'movements',
+                        'targetEntity' => 'App\\Entity\\Cable',
+                        'fetch' => 2,
+                        'type' => 2,
+                        'mappedBy' => null,
+                        'isOwningSide' => true,
+                        'sourceEntity' => 'App\\Entity\\Movement',
+                        'isCascadeRemove' => false,
+                        'isCascadePersist' => true,
+                        'isCascadeRefresh' => false,
+                        'isCascadeMerge' => false,
+                        'isCascadeDetach' => false,
+                        'sourceToTargetKeyColumns' => [
+                            'cables_id' => 'id',
+                        ],
+                        'joinColumnFieldNames' => [
+                            'cables_id' => 'cables_id',
+                        ],
+                        'targetToSourceKeyColumns' => [
+                            'id' => 'cables_id',
+                        ],
+                        'orphanRemoval' => false,
+                    ],
+                    'projects' => [
+                        'fieldName' => 'projects',
+                        'joinColumns' => [
+                            [
+                                'name' => 'projects_id',
+                                'unique' => false,
+                                'nullable' => true,
+                                'onDelete' => null,
+                                'columnDefinition' => null,
+                                'referencedColumnName' => 'id',
+                            ],
+                        ],
+                        'cascade' => [
+                            'persist',
+                        ],
+                        'inversedBy' => 'movements',
+                        'targetEntity' => 'App\\Entity\\Project',
+                        'fetch' => 2,
+                        'type' => 2,
+                        'mappedBy' => null,
+                        'isOwningSide' => true,
+                        'sourceEntity' => 'App\\Entity\\Movement',
+                        'isCascadeRemove' => false,
+                        'isCascadePersist' => true,
+                        'isCascadeRefresh' => false,
+                        'isCascadeMerge' => false,
+                        'isCascadeDetach' => false,
+                        'sourceToTargetKeyColumns' => [
+                            'projects_id' => 'id',
+                        ],
+                        'joinColumnFieldNames' => [
+                            'projects_id' => 'projects_id',
+                        ],
+                        'targetToSourceKeyColumns' => [
+                            'id' => 'projects_id',
+                        ],
+                        'orphanRemoval' => false,
+                    ],
+                ],
+            ],
+            'idGenerator' => [
+                $o[1],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

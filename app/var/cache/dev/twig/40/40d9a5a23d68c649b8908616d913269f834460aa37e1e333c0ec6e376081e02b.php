@@ -1349,6 +1349,6 @@ class __TwigTemplate_7f99e45e5b0e3826460b083dc7dfe29cb5bb2dd89f0a6c28c4b7d19e525
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/request.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
+", "@WebProfiler/Collector/request.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
     }
 }

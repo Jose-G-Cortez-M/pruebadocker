@@ -1,0 +1,108 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* material/edit.html.twig */
+class __TwigTemplate_cd3fabd61264ad225795720ad7ff1b0dd9b21bfd26142f71085d1b6a44a6ccf0 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->blocks = [
+            'title' => [$this, 'block_title'],
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context)
+    {
+        // line 1
+        return "base.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $this->parent = $this->loadTemplate("base.html.twig", "material/edit.html.twig", 1);
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+    }
+
+    // line 3
+    public function block_title($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        echo "Editar material";
+    }
+
+    // line 5
+    public function block_body($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 6
+        echo "
+
+    <div class=\"container h-100\">
+        <div class=\"row h-100 justify-content-center align-items-center\">
+            <div class=\"col-9 bg-white rounded my3 p-5\">
+                <h1>Editar material</h1>
+                <a href=\"";
+        // line 12
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("material_index");
+        echo "\"><i class=\"fas fa-hand-point-left\"> Volver a la lista</i></a>
+                ";
+        // line 13
+        echo twig_include($this->env, $context, "material/_form.html.twig", ["button_label" => "Update"]);
+        echo "
+                ";
+        // line 14
+        if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER")) {
+            // line 15
+            echo "                    ";
+            echo twig_include($this->env, $context, "material/_delete_form.html.twig");
+            echo "
+                ";
+        }
+        // line 17
+        echo "            </div>
+        </div>
+    </div>
+
+";
+    }
+
+    public function getTemplateName()
+    {
+        return "material/edit.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  82 => 17,  76 => 15,  74 => 14,  70 => 13,  66 => 12,  58 => 6,  54 => 5,  47 => 3,  36 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "material/edit.html.twig", "/var/www/project/templates/material/edit.html.twig");
+    }
+}

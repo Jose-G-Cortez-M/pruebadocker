@@ -79,6 +79,6 @@ class __TwigTemplate_cb70ac69d395ca837145d4cdecf706e27123bd010e5b1c6f3666d3c7019
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ movement.id) }}\">
     <button class=\"btn btn-success\" id=\"do\"><i class=\"fas fa-pallet\"> Regresar al Inventario</i></button>
 </form>
-", "movement/_delete_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/movement/_delete_form.html.twig");
+", "movement/_delete_form.html.twig", "/var/www/project/templates/movement/_delete_form.html.twig");
     }
 }

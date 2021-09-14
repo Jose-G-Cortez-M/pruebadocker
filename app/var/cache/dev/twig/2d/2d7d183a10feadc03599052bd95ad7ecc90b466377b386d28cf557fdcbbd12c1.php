@@ -1671,6 +1671,6 @@ class __TwigTemplate_a9776c5775dffeb24874cd0ebb89367dd4a237b0688268bcac8b91579b3
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/var/www/project/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

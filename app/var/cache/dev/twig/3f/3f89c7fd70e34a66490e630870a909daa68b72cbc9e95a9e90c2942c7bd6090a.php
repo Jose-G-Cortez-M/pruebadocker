@@ -479,6 +479,6 @@ class __TwigTemplate_a629b1646005d89b3cf03dd392cc2d97527f0161c7815808a5135de468d
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/validator.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
+", "@WebProfiler/Collector/validator.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
     }
 }

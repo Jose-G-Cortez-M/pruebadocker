@@ -155,6 +155,6 @@ class __TwigTemplate_b78a894442f0f3ca6ba16788f47bf993a1c85b6c96db108ad0ae7599559
 {% block panel %}
     {{ render(controller('web_profiler.controller.router::panelAction', { token: token })) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

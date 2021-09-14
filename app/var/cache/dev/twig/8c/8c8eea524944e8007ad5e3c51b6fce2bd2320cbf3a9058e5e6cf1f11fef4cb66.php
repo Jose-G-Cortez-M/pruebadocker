@@ -76,6 +76,6 @@ class __TwigTemplate_c9b95671f41346e65d128d32d4214d80a67533118d201fd24783bb82bab
     <button class=\"btn btn-success\" id=\"do\">
         <i class=\"far fa-calendar-check\"> Tarea terminada</i>
     </button>
-</form>", "homepage/_updateState_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/homepage/_updateState_form.html.twig");
+</form>", "homepage/_updateState_form.html.twig", "/var/www/project/templates/homepage/_updateState_form.html.twig");
     }
 }

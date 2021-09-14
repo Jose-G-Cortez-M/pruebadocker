@@ -482,6 +482,6 @@ class __TwigTemplate_87b15201f19342d1022e9d56b0d90ad997a89d437fd978adfc2f058d799
         {% endfor %}
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/events.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
+", "@WebProfiler/Collector/events.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/events.html.twig");
     }
 }

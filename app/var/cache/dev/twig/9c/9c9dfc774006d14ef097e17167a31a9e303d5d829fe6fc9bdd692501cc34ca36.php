@@ -76,6 +76,6 @@ class __TwigTemplate_4e5570484f36070b49211a91644eff9aee7b86b6bb5521e26c95665298d
     <button class=\"btn btn-success\" id=\"button\">
         <i class=\"far fa-eye\"> Observaciones</i>
     </button>
-</form>", "project/_showObs_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/project/_showObs_form.html.twig");
+</form>", "project/_showObs_form.html.twig", "/var/www/project/templates/project/_showObs_form.html.twig");
     }
 }

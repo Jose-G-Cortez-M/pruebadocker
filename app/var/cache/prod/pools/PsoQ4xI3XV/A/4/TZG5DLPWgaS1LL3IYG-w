@@ -1,0 +1,152 @@
+<?php //App__Entity__Client__CLASSMETADATA__
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+        clone ($p['Doctrine\\ORM\\Id\\IdentityGenerator'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Id\\IdentityGenerator')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Client',
+            ],
+            'namespace' => [
+                'App\\Entity',
+            ],
+            'rootEntityName' => [
+                'App\\Entity\\Client',
+            ],
+            'customRepositoryClassName' => [
+                'App\\Repository\\ClientRepository',
+            ],
+            'identifier' => [
+                [
+                    'id',
+                ],
+            ],
+            'generatorType' => [
+                4,
+            ],
+            'fieldMappings' => [
+                [
+                    'id' => [
+                        'fieldName' => 'id',
+                        'type' => 'integer',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => null,
+                        'id' => true,
+                        'columnName' => 'id',
+                    ],
+                    'company' => [
+                        'fieldName' => 'company',
+                        'type' => 'string',
+                        'scale' => null,
+                        'length' => 100,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'company',
+                    ],
+                    'representative' => [
+                        'fieldName' => 'representative',
+                        'type' => 'string',
+                        'scale' => null,
+                        'length' => 100,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => null,
+                        'columnName' => 'representative',
+                    ],
+                    'phone' => [
+                        'fieldName' => 'phone',
+                        'type' => 'string',
+                        'scale' => null,
+                        'length' => 50,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'phone',
+                    ],
+                    'direction' => [
+                        'fieldName' => 'direction',
+                        'type' => 'string',
+                        'scale' => null,
+                        'length' => 150,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'direction',
+                    ],
+                    'debt' => [
+                        'fieldName' => 'debt',
+                        'type' => 'float',
+                        'scale' => null,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => true,
+                        'precision' => null,
+                        'columnName' => 'debt',
+                    ],
+                ],
+            ],
+            'fieldNames' => [
+                [
+                    'id' => 'id',
+                    'company' => 'company',
+                    'representative' => 'representative',
+                    'phone' => 'phone',
+                    'direction' => 'direction',
+                    'debt' => 'debt',
+                ],
+            ],
+            'columnNames' => [
+                [
+                    'id' => 'id',
+                    'company' => 'company',
+                    'representative' => 'representative',
+                    'phone' => 'phone',
+                    'direction' => 'direction',
+                    'debt' => 'debt',
+                ],
+            ],
+            'table' => [
+                [
+                    'name' => 'client',
+                ],
+            ],
+            'associationMappings' => [
+                [
+                    'projects' => [
+                        'fieldName' => 'projects',
+                        'mappedBy' => 'clients',
+                        'targetEntity' => 'App\\Entity\\Project',
+                        'cascade' => [
+                            'persist',
+                            'remove',
+                        ],
+                        'orphanRemoval' => false,
+                        'fetch' => 2,
+                        'type' => 4,
+                        'inversedBy' => null,
+                        'isOwningSide' => false,
+                        'sourceEntity' => 'App\\Entity\\Client',
+                        'isCascadeRemove' => true,
+                        'isCascadePersist' => true,
+                        'isCascadeRefresh' => false,
+                        'isCascadeMerge' => false,
+                        'isCascadeDetach' => false,
+                    ],
+                ],
+            ],
+            'idGenerator' => [
+                $o[1],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

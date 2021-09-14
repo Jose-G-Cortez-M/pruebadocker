@@ -84,6 +84,6 @@ class __TwigTemplate_724863ffd19b80fa7365128b58e3dbd600f4089947bfd2a159148ec88a1
     {{ form_widget(form) }}
     <button class=\"btn btn-success\" id=\"button\">{{ button_label|default('Guardar') }}</button>
 {{ form_end(form) }}
-", "userAddProject/_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/userAddProject/_form.html.twig");
+", "userAddProject/_form.html.twig", "/var/www/project/templates/userAddProject/_form.html.twig");
     }
 }

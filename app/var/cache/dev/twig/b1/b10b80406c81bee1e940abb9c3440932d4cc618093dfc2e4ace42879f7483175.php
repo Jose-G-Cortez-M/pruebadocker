@@ -439,6 +439,6 @@ class __TwigTemplate_da904ca05e1caab140e314df282ccb42b42f8dad52d8e98c30e21d9d58e
     {%- set widget_class = widget_class|default('mr-2') -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
-", "tailwind_2_layout.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
+", "tailwind_2_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
     }
 }

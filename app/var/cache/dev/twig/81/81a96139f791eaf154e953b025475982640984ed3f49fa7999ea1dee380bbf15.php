@@ -211,6 +211,6 @@ class __TwigTemplate_d1c980b213bd0d2cdce1a6de77201bcc84e46e3b2a58019ba075b4c3665
     </table>
     <a href=\"{{ path('project_index') }}\"><i class=\"fas fa-hand-point-left\"> Volver a la lista</i></a>
 
-{% endblock %}", "project/showObservations.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/project/showObservations.html.twig");
+{% endblock %}", "project/showObservations.html.twig", "/var/www/project/templates/project/showObservations.html.twig");
     }
 }

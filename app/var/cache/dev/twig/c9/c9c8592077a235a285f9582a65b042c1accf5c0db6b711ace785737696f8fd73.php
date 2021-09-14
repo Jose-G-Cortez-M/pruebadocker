@@ -211,6 +211,6 @@ class __TwigTemplate_0030d2c3b24b8291910aa46b06a8c14e8b4b02ff5f53700df28fdfc9175
         {{ include('client/_delete_form.html.twig') }}
     {% endif %}
 {% endblock %}
-", "client/show.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/client/show.html.twig");
+", "client/show.html.twig", "/var/www/project/templates/client/show.html.twig");
     }
 }

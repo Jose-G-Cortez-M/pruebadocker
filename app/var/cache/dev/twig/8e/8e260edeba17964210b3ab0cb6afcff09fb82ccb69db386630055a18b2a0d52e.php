@@ -79,6 +79,6 @@ class __TwigTemplate_e5d2f72ed6cd3d03227c898ba3305993114b503275fb3621664507d0b13
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ cable.id) }}\">
     <button class=\"btn btn-danger\" id=\"button\"><i class=\"fas fa-trash-alt\"></i></button>
 </form>
-", "cable/_delete_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/cable/_delete_form.html.twig");
+", "cable/_delete_form.html.twig", "/var/www/project/templates/cable/_delete_form.html.twig");
     }
 }

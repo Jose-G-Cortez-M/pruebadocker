@@ -71,6 +71,6 @@ class __TwigTemplate_62194382fe1be593925232595542aaeaae81a353a0fe4d2f43dbc6785a5
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.html.twig\" %}
-", "@email/default/notification/body.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
+", "@email/default/notification/body.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
     }
 }

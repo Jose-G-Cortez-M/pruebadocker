@@ -219,6 +219,6 @@ class __TwigTemplate_60f036fa80ff0fd18be817453b6e5f74fe2898659cc926b3d8f03f06174
         </tbody>
     </table>
 {% endblock %}
-", "task/index.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/task/index.html.twig");
+", "task/index.html.twig", "/var/www/project/templates/task/index.html.twig");
     }
 }

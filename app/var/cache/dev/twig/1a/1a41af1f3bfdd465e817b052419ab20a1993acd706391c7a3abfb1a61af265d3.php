@@ -691,6 +691,6 @@ class __TwigTemplate_8f41e8675f97d6f5cce5fb1aced00f1413abb830c0fd1ac280b31106e8c
 {% block form_group_class -%}
     col-sm-10
 {%- endblock form_group_class %}
-", "bootstrap_5_horizontal_layout.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig");
+", "bootstrap_5_horizontal_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig");
     }
 }

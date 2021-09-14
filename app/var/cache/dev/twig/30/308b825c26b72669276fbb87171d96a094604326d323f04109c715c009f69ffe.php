@@ -299,6 +299,6 @@ class __TwigTemplate_caecf103032303cab9cf032a28a6f6810ef7549f8546b3a34232a4076a5
         {{- form_rest(form) -}}
     </table>
 {%- endblock form_widget_compound -%}
-", "form_table_layout.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
+", "form_table_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
     }
 }

@@ -76,6 +76,6 @@ class __TwigTemplate_1d27b933f7921d3f363a071d85f4a6e30bc44e65eaa014bca5123f272c4
     <button class=\"btn btn-success\" id=\"button\">
         <i class=\"fas fa-hammer\"> Trabajadores</i>
     </button>
-</form>", "project/_assignWorker_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/project/_assignWorker_form.html.twig");
+</form>", "project/_assignWorker_form.html.twig", "/var/www/project/templates/project/_assignWorker_form.html.twig");
     }
 }

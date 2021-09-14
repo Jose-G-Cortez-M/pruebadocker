@@ -81,6 +81,6 @@ class __TwigTemplate_2e384cbdd854dfddae40780b6c0241dd5ec4b85081e5220c6e35bc63fba
     {{ form_widget(form) }}
     <button class=\"btn btn-success\" id=\"button\"><i class=\"fas fa-save\"></i></button>
 {{ form_end(form) }}
-", "task/_form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/templates/task/_form.html.twig");
+", "task/_form.html.twig", "/var/www/project/templates/task/_form.html.twig");
     }
 }

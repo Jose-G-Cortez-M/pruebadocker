@@ -2080,6 +2080,6 @@ class __TwigTemplate_a3b59c31134a9ce87886fd820d95e2a7b31d5dc16f000739abc3f06af5c
         {{ tree.form_tree_details(childName, childData, forms_by_hash) }}
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/form.html.twig", "/home/josegcm/Descargas/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
+", "@WebProfiler/Collector/form.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
     }
 }
