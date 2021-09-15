@@ -211,6 +211,6 @@ class __TwigTemplate_49e87e80c0094be36d198f3a22bb20310f9df6c9c177c9eb6865dee155a
         {{ include('task/_delete_form.html.twig') }}
     {% endif %}
 {% endblock %}
-", "task/show.html.twig", "/var/www/project/templates/task/show.html.twig");
+", "task/show.html.twig", "/home/josegcm/monolithicEquipanelec/templates/task/show.html.twig");
     }
 }

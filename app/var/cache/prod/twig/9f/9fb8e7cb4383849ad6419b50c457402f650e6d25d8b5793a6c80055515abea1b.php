@@ -189,6 +189,6 @@ class __TwigTemplate_9759564c63dd228b31ce206c1b763c2e084f0a5a4b96964b3d4e4e806b2
 
     public function getSourceContext()
     {
-        return new Source("", "form_table_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
+        return new Source("", "form_table_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/form_table_layout.html.twig");
     }
 }

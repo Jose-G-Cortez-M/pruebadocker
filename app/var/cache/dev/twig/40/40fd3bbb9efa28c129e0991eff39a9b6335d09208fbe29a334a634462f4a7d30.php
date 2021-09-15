@@ -898,6 +898,6 @@ class __TwigTemplate_4c349e7dd163d996b68a6050729a76edfbeb8461a516a0fe9f6d84aa5fd
         </tbody>
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/translation.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
+", "@WebProfiler/Collector/translation.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/translation.html.twig");
     }
 }

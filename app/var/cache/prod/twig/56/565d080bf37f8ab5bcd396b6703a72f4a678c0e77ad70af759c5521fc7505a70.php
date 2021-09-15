@@ -90,6 +90,6 @@ class __TwigTemplate_2a22f801f6773daceee594f970489bc63f25d85aac4e46c41e06563c2d8
 
     public function getSourceContext()
     {
-        return new Source("", "cable/new.html.twig", "/var/www/project/templates/cable/new.html.twig");
+        return new Source("", "cable/new.html.twig", "/home/josegcm/monolithicEquipanelec/templates/cable/new.html.twig");
     }
 }

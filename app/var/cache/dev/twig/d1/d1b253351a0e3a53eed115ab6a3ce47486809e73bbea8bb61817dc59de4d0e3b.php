@@ -76,6 +76,6 @@ class __TwigTemplate_1865fcb45ff4f527232b4d8ddc7ae1b7296873cf573c7181e4aefa0a827
     <button class=\"btn btn-success\" id=\"button\">
         <i class=\"fa fa-tasks\"> Tareas</i>
     </button>
-</form>", "project/_assignTask_form.html.twig", "/var/www/project/templates/project/_assignTask_form.html.twig");
+</form>", "project/_assignTask_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/project/_assignTask_form.html.twig");
     }
 }

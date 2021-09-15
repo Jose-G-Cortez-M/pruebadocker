@@ -843,6 +843,6 @@ class __TwigTemplate_3ee847b034c0ce7d3519f20c0e52912b350e3166663b21f4c4aedb793e5
     </table>
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/messenger.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
+", "@WebProfiler/Collector/messenger.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
     }
 }

@@ -81,6 +81,6 @@ class __TwigTemplate_65144a3c86eba58dd153d3ddec700ec572ac939c92e575561fdf9ccd5cd
     public function getSourceContext()
     {
         return new Source("{% block panel '' %}
-", "@WebProfiler/Profiler/ajax_layout.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/ajax_layout.html.twig");
+", "@WebProfiler/Profiler/ajax_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/ajax_layout.html.twig");
     }
 }

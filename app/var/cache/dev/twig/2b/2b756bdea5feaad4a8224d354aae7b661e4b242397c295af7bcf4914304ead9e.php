@@ -270,6 +270,6 @@ class __TwigTemplate_9b9376b55ced4283cf0f317af6549cb7668d5ba0eed52d2bc0a0bbbfe98
     </div>
 {%- endblock -%}
 
-", "@VichUploader/Form/fields.html.twig", "/var/www/project/vendor/vich/uploader-bundle/templates/Form/fields.html.twig");
+", "@VichUploader/Form/fields.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/vich/uploader-bundle/templates/Form/fields.html.twig");
     }
 }

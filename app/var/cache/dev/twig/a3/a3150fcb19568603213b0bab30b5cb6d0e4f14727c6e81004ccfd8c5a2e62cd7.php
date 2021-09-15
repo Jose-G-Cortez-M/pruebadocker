@@ -168,6 +168,6 @@ class __TwigTemplate_ab2c227fe2f4ffd65aa5c3cfbf5d4dc14a29f9d6c9cb38cf83adab9af81
 
     {{ include('@WebProfiler/Profiler/toolbar_item.html.twig', { link: false }) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
     }
 }

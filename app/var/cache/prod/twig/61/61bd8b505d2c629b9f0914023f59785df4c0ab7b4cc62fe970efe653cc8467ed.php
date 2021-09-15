@@ -58,6 +58,6 @@ class __TwigTemplate_6da7d1f6bb0819dd4fe9b5d721ae3b535e902df1d4edf32a2ef2738eec6
 
     public function getSourceContext()
     {
-        return new Source("", "@email/default/notification/body.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
+        return new Source("", "@email/default/notification/body.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.html.twig");
     }
 }

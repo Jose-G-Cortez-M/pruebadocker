@@ -50,7 +50,10 @@ class __TwigTemplate_1c320e9ef24ba3511449bc6865f23bac7c7629543d68fc33f0840c49ef5
         // line 6
         $this->displayBlock('stylesheets', $context, $blocks);
         // line 9
-        echo "
+        echo "        <link rel=\"icon\" href=\"";
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("public/favicon.ico"), "html", null, true);
+        echo "\">
+
     </head>
 
 
@@ -62,12 +65,12 @@ class __TwigTemplate_1c320e9ef24ba3511449bc6865f23bac7c7629543d68fc33f0840c49ef5
                 <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">
                     <div class=\"container-fluid\">
                         <a class=\"navbar-brand\" href=\"";
-        // line 20
+        // line 21
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("homepage");
         echo "\">
                             <i class=\"fas fa-broadcast-tower\"></i>
                             ";
-        // line 23
+        // line 24
         echo "                        </a>
                         <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
                             <span class=\"navbar-toggler-icon\"></span>
@@ -76,160 +79,160 @@ class __TwigTemplate_1c320e9ef24ba3511449bc6865f23bac7c7629543d68fc33f0840c49ef5
                             <ul class=\"navbar-nav\">
                                 <li class=\"nav-item\">
                                     <a class=\"nav-link active\" aria-current=\"page\" href=\"";
-        // line 30
+        // line 31
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("homepage");
         echo "\">Lista de tareas pendientes</a>
                                 </li>
 
                                 ";
-        // line 33
+        // line 34
         if (($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_PROJECT_MANAGER") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-            // line 34
+            // line 35
             echo "                                    <li class=\"nav-item\">
                                         <a class=\"nav-link\" href=\"";
-            // line 35
+            // line 36
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("client_index");
             echo "\">Clientes</a>
                                     </li>
                                     <li class=\"nav-item\">
                                         <a class=\"nav-link\" href=\"";
-            // line 38
+            // line 39
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("task_index");
             echo "\">Tareas</a>
                                     </li>
                                 ";
         }
-        // line 41
+        // line 42
         echo "
                                 ";
-        // line 42
+        // line 43
         if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER")) {
-            // line 43
+            // line 44
             echo "                                    <li class=\"nav-item\">
                                         <a class=\"nav-link\" href=\"";
-            // line 44
+            // line 45
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user_index");
             echo "\">Empleados</a>
                                     </li>
                                 ";
         }
-        // line 47
+        // line 48
         echo "
 
                                 ";
-        // line 49
+        // line 50
         if ((($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_COUNTER") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_PROJECT_MANAGER")) || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-            // line 50
+            // line 51
             echo "                                    <li class=\"nav-item dropdown\">
                                         <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                             Proyectos
                                         </a>
                                         <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                             <li><a class=\"dropdown-item\" href=\"";
-            // line 55
+            // line 56
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("project_index");
             echo "\">Proyectos activos </a></li>
                                             ";
-            // line 56
+            // line 57
             if (($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_COUNTER") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-                // line 57
+                // line 58
                 echo "                                                <li><a class=\"dropdown-item\" href=\"";
                 echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("project_close_index");
                 echo "\">Proyectos Cerrados </a></li>
                                                 <li><a class=\"dropdown-item\" href=\"";
-                // line 58
+                // line 59
                 echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("counter");
                 echo "\">Contabilidad de la empresa</a></li>
                                             ";
             }
-            // line 60
+            // line 61
             echo "                                        </ul>
                                     </li>
                                 ";
         }
-        // line 63
+        // line 64
         echo "
 
 
                                 ";
-        // line 66
+        // line 67
         if (($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_CELLAR") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-            // line 67
+            // line 68
             echo "                                    <li class=\"nav-item dropdown\">
                                         <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                             Inventario
                                         </a>
                                         <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                             <li><a class=\"dropdown-item\" href=\"";
-            // line 72
+            // line 73
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("material_index");
             echo "\">Materiales</a></li>
                                             <li><a class=\"dropdown-item\" href=\"";
-            // line 73
+            // line 74
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("cable_index");
             echo "\">Cables</a></li>
                                             <li><a class=\"dropdown-item\" href=\"";
-            // line 74
+            // line 75
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("tool_index");
             echo "\">Herramientas</a></li>
                                         </ul>
                                     </li>
                                 ";
         }
-        // line 78
+        // line 79
         echo "
                                 ";
-        // line 79
+        // line 80
         if ((($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_CELLAR") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_PROJECT_MANAGER")) || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-            // line 80
+            // line 81
             echo "                                    <li class=\"nav-item dropdown\">
                                         <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                             Movimientos
                                         </a>
                                         <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                             ";
-            // line 85
+            // line 86
             if (($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_CELLAR") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-                // line 86
+                // line 87
                 echo "                                                <li><a class=\"dropdown-item\" href=\"";
                 echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("movement_list");
                 echo "\">Lista de Movimientos</a></li>
                                             ";
             }
-            // line 88
+            // line 89
             echo "                                            ";
             if (($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_PROJECT_MANAGER") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-                // line 89
+                // line 90
                 echo "                                                <li><a class=\"dropdown-item\" href=\"";
                 echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("movement_index");
                 echo "\">Movimientos asignados a un proyecto</a></li>
                                             ";
             }
-            // line 91
+            // line 92
             echo "                                        </ul>
                                     </li>
                                 ";
         }
-        // line 94
+        // line 95
         echo "
                                 ";
-        // line 95
+        // line 96
         if ((((($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_COUNTER") || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_WORKERS")) || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_CELLAR")) || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_PROJECT_MANAGER")) || $this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_MANAGER"))) {
-            // line 96
+            // line 97
             echo "                                    <li class=\"nav-item align-content-end dropdown\" >
                                         <a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                             <i class=\"fas fa-cogs\"></i>
                                         </a>
                                         <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                                             <li><a class=\"dropdown-item\" href=\"";
-            // line 101
+            // line 102
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
             echo "\"><i class=\"fas fa-door-open\"> Cerrar sesión</i></a></li>
                                         </ul>
                                     </li>
                                 ";
         }
-        // line 105
+        // line 106
         echo "                            </ul>
                         </div>
                     </div>
@@ -243,17 +246,17 @@ class __TwigTemplate_1c320e9ef24ba3511449bc6865f23bac7c7629543d68fc33f0840c49ef5
         <div class=\"table-responsive\">
             <div class=\"col-12\">
                 ";
-        // line 117
-        $this->displayBlock('body', $context, $blocks);
         // line 118
+        $this->displayBlock('body', $context, $blocks);
+        // line 119
         echo "            </div>
         </div>
     </div>
 
     ";
-        // line 122
+        // line 123
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 125
+        // line 126
         echo "
     </body>
 </html>
@@ -278,17 +281,17 @@ class __TwigTemplate_1c320e9ef24ba3511449bc6865f23bac7c7629543d68fc33f0840c49ef5
         ";
     }
 
-    // line 117
+    // line 118
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 122
+    // line 123
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 123
+        // line 124
         echo "        ";
         echo $this->extensions['Symfony\WebpackEncoreBundle\Twig\EntryFilesTwigExtension']->renderWebpackScriptTags("app");
         echo "
@@ -307,11 +310,11 @@ class __TwigTemplate_1c320e9ef24ba3511449bc6865f23bac7c7629543d68fc33f0840c49ef5
 
     public function getDebugInfo()
     {
-        return array (  292 => 123,  288 => 122,  282 => 117,  275 => 7,  271 => 6,  264 => 5,  257 => 125,  255 => 122,  249 => 118,  247 => 117,  233 => 105,  226 => 101,  219 => 96,  217 => 95,  214 => 94,  209 => 91,  203 => 89,  200 => 88,  194 => 86,  192 => 85,  185 => 80,  183 => 79,  180 => 78,  173 => 74,  169 => 73,  165 => 72,  158 => 67,  156 => 66,  151 => 63,  146 => 60,  141 => 58,  136 => 57,  134 => 56,  130 => 55,  123 => 50,  121 => 49,  117 => 47,  111 => 44,  108 => 43,  106 => 42,  103 => 41,  97 => 38,  91 => 35,  88 => 34,  86 => 33,  80 => 30,  71 => 23,  66 => 20,  53 => 9,  51 => 6,  47 => 5,  41 => 1,);
+        return array (  295 => 124,  291 => 123,  285 => 118,  278 => 7,  274 => 6,  267 => 5,  260 => 126,  258 => 123,  252 => 119,  250 => 118,  236 => 106,  229 => 102,  222 => 97,  220 => 96,  217 => 95,  212 => 92,  206 => 90,  203 => 89,  197 => 87,  195 => 86,  188 => 81,  186 => 80,  183 => 79,  176 => 75,  172 => 74,  168 => 73,  161 => 68,  159 => 67,  154 => 64,  149 => 61,  144 => 59,  139 => 58,  137 => 57,  133 => 56,  126 => 51,  124 => 50,  120 => 48,  114 => 45,  111 => 44,  109 => 43,  106 => 42,  100 => 39,  94 => 36,  91 => 35,  89 => 34,  83 => 31,  74 => 24,  69 => 21,  53 => 9,  51 => 6,  47 => 5,  41 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "base.html.twig", "/var/www/project/templates/base.html.twig");
+        return new Source("", "base.html.twig", "/home/josegcm/monolithicEquipanelec/templates/base.html.twig");
     }
 }

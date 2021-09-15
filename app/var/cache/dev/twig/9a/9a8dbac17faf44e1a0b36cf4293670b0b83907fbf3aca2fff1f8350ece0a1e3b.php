@@ -79,6 +79,6 @@ class __TwigTemplate_9855e522e3f41c0d19a508864fc6d977307f434920cb1fd9331d358f939
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ tool.id) }}\">
     <button class=\"btn btn-danger\" id=\"button\"><i class=\"fas fa-trash-alt\"></i></button>
 </form>
-", "tool/_delete_form.html.twig", "/var/www/project/templates/tool/_delete_form.html.twig");
+", "tool/_delete_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/tool/_delete_form.html.twig");
     }
 }

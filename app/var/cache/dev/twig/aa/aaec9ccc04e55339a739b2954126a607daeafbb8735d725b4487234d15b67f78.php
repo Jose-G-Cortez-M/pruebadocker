@@ -76,6 +76,6 @@ class __TwigTemplate_f103de4b021c86ff6ce86b9ebcd96d05edd2338507244c97316cc8801a7
     <button class=\"btn btn-danger\" id=\"button\">
         <i class=\"fas fa-paperclip\"> Terminar proyecto</i>
     </button>
-</form>", "project/_finishProject_form.html.twig", "/var/www/project/templates/project/_finishProject_form.html.twig");
+</form>", "project/_finishProject_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/project/_finishProject_form.html.twig");
     }
 }

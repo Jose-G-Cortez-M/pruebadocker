@@ -277,6 +277,6 @@ class __TwigTemplate_dcdc4bf14d701e847769875346516ea8f35bb6d16ccb203562d5b145637
     {% set attr = attr|merge({class: (attr.class|default('') ~ ' button')|trim}) %}
     {{- parent() -}}
 {%- endblock button_widget %}
-", "foundation_6_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/foundation_6_layout.html.twig");
+", "foundation_6_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/foundation_6_layout.html.twig");
     }
 }

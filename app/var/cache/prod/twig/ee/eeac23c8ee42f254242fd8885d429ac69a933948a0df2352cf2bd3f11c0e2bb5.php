@@ -93,6 +93,6 @@ IjEiLz4KICA8L2c+PC9nPjwvc3ZnPg==\" width=24\" height=24\">";
 
     public function getSourceContext()
     {
-        return new Source("", "@VichUploader/Collector/icon.html.twig", "/var/www/project/vendor/vich/uploader-bundle/templates/Collector/icon.html.twig");
+        return new Source("", "@VichUploader/Collector/icon.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/vich/uploader-bundle/templates/Collector/icon.html.twig");
     }
 }

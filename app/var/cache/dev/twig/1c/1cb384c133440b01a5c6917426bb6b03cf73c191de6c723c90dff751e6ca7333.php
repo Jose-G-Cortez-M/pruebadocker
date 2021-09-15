@@ -84,6 +84,6 @@ class __TwigTemplate_1dfe2bcbeb4260c2acd0a942fe172b6335497962637df95418577d2c01b
     {{ form_widget(form) }}
     <button class=\"btn btn-success\" id=\"button\">{{ button_label|default('Guardar') }}</button>
 {{ form_end(form) }}
-", "taskAddProject/_form.html.twig", "/var/www/project/templates/taskAddProject/_form.html.twig");
+", "taskAddProject/_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/taskAddProject/_form.html.twig");
     }
 }

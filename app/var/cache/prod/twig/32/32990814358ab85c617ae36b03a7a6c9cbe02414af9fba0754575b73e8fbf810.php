@@ -50,6 +50,6 @@ class __TwigTemplate_6ab6117acd57bd5582bb97d6f02ca4ea5d0a53f80ac93b507e08ed849cc
 
     public function getSourceContext()
     {
-        return new Source("", "@Security/Collector/icon.svg", "/var/www/project/vendor/symfony/security-bundle/Resources/views/Collector/icon.svg");
+        return new Source("", "@Security/Collector/icon.svg", "/home/josegcm/monolithicEquipanelec/vendor/symfony/security-bundle/Resources/views/Collector/icon.svg");
     }
 }

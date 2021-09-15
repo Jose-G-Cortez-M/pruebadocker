@@ -141,6 +141,6 @@ class __TwigTemplate_e28b4635834a3d89ead0f66f0a16e087d3d418c679d1b76cb2bf4488fb3
 
     public function getSourceContext()
     {
-        return new Source("", "security/login.html.twig", "/var/www/project/templates/security/login.html.twig");
+        return new Source("", "security/login.html.twig", "/home/josegcm/monolithicEquipanelec/templates/security/login.html.twig");
     }
 }

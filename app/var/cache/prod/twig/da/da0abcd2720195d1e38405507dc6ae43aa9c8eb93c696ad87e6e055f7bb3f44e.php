@@ -60,6 +60,6 @@ class __TwigTemplate_a88b21c2426ddb126deead5137d50a1edb3caec0160660624efa05f41b3
 
     public function getSourceContext()
     {
-        return new Source("", "project/_assignTask_form.html.twig", "/var/www/project/templates/project/_assignTask_form.html.twig");
+        return new Source("", "project/_assignTask_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/project/_assignTask_form.html.twig");
     }
 }

@@ -441,6 +441,6 @@ class __TwigTemplate_dec580cb6adcdae25353648a684a5299455a2d9cc1b78d9720187e754d9
 
     public function getSourceContext()
     {
-        return new Source("", "bootstrap_5_horizontal_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig");
+        return new Source("", "bootstrap_5_horizontal_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig");
     }
 }

@@ -187,6 +187,6 @@ class __TwigTemplate_82870fb61ff332b30d4ec5a7e89bf4dfac0b34421fbb412d5be6ce5416e
 
     public function getSourceContext()
     {
-        return new Source("", "@VichUploader/Collector/mapping_collector.html.twig", "/var/www/project/vendor/vich/uploader-bundle/templates/Collector/mapping_collector.html.twig");
+        return new Source("", "@VichUploader/Collector/mapping_collector.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/vich/uploader-bundle/templates/Collector/mapping_collector.html.twig");
     }
 }

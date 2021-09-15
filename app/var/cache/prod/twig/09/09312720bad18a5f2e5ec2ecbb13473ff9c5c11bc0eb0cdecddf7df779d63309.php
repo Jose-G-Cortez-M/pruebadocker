@@ -65,6 +65,6 @@ class __TwigTemplate_07830b05dd770e3adb6de2a9deef16613a9f8a15c042712c381d9fdb7b6
 
     public function getSourceContext()
     {
-        return new Source("", "project_close/_form.html.twig", "/var/www/project/templates/project_close/_form.html.twig");
+        return new Source("", "project_close/_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/project_close/_form.html.twig");
     }
 }

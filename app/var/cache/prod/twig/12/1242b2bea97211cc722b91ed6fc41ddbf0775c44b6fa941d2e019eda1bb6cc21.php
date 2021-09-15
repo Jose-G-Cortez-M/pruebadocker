@@ -131,6 +131,6 @@ class __TwigTemplate_52c55d308037071ef0c5b72e322a46f37d6129f804ace11131c1f7db528
 
     public function getSourceContext()
     {
-        return new Source("", "@Doctrine/Collector/explain.html.twig", "/var/www/project/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+        return new Source("", "@Doctrine/Collector/explain.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

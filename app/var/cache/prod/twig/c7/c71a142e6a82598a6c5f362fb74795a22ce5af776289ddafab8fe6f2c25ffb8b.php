@@ -99,6 +99,6 @@ class __TwigTemplate_b7ca182532ace254e3245a6e99af29646b63158a22e356e2cc4cc6c6aed
 
     public function getSourceContext()
     {
-        return new Source("", "task/edit.html.twig", "/var/www/project/templates/task/edit.html.twig");
+        return new Source("", "task/edit.html.twig", "/home/josegcm/monolithicEquipanelec/templates/task/edit.html.twig");
     }
 }

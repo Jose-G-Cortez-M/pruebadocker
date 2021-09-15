@@ -63,6 +63,6 @@ class __TwigTemplate_91110a7b39bcd9afa514e0e97ffaaf7d7feaa096dda273f8196ff8a058f
 
     public function getSourceContext()
     {
-        return new Source("", "tool/_delete_form.html.twig", "/var/www/project/templates/tool/_delete_form.html.twig");
+        return new Source("", "tool/_delete_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/tool/_delete_form.html.twig");
     }
 }

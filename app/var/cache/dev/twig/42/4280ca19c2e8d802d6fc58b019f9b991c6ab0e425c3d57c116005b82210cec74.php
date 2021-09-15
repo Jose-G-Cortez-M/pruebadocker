@@ -74,6 +74,6 @@ class __TwigTemplate_fb35c52a8ceae092ff115193b3eb1d32a74939d6eb2fdb564a27b986bf2
         return new Source("<form method=\"get\" action=\"{{ path('homepage_update', {'idt': taskPerUser.idt,'idp': taskPerUser.idp}) }}\">
     <button class=\"btn btn-success\" id=\"do\"><i class=\"fas fa-pen-alt\"> Escribe una observación</i></button>
 </form>
-", "homepage/_updateDescription_form.html.twig", "/var/www/project/templates/homepage/_updateDescription_form.html.twig");
+", "homepage/_updateDescription_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/homepage/_updateDescription_form.html.twig");
     }
 }

@@ -888,6 +888,6 @@ $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBl
 
     public function getSourceContext()
     {
-        return new Source("", "foundation_5_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/foundation_5_layout.html.twig");
+        return new Source("", "foundation_5_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/foundation_5_layout.html.twig");
     }
 }

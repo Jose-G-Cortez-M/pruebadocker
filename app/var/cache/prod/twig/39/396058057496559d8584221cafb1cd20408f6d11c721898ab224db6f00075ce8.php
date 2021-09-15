@@ -642,6 +642,6 @@ class __TwigTemplate_f5014a3e77b7d22311edb276f9d6f5c858d482833cfd1e7f3a36dd86f1d
 
     public function getSourceContext()
     {
-        return new Source("", "bootstrap_3_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_3_layout.html.twig");
+        return new Source("", "bootstrap_3_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_3_layout.html.twig");
     }
 }

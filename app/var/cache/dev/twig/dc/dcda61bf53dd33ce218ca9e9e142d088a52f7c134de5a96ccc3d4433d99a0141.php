@@ -122,6 +122,6 @@ class __TwigTemplate_0789e9430e82ec155b7b6c3c5569f2446ed15d2aaac61e08795dec37ca3
         {% endfor %}
     </tbody>
 </table>
-", "@WebProfiler/Profiler/table.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/table.html.twig");
+", "@WebProfiler/Profiler/table.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/table.html.twig");
     }
 }

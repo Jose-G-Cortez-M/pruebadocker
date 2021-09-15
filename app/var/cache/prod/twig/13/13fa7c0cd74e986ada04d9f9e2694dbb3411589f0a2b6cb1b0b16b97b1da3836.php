@@ -53,6 +53,6 @@ class __TwigTemplate_d11f36b8115444c8af705ecc30fe9154cc31a14772978e867ad4b2f13d3
 
     public function getSourceContext()
     {
-        return new Source("", "@Doctrine/Collector/icon.svg", "/var/www/project/vendor/doctrine/doctrine-bundle/Resources/views/Collector/icon.svg");
+        return new Source("", "@Doctrine/Collector/icon.svg", "/home/josegcm/monolithicEquipanelec/vendor/doctrine/doctrine-bundle/Resources/views/Collector/icon.svg");
     }
 }

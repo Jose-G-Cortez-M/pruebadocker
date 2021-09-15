@@ -457,6 +457,6 @@ class __TwigTemplate_6e2cd8320155717cf2173f9422af7a316eff062e73286e79f13d80bfaa6
 
     public function getSourceContext()
     {
-        return new Source("", "@DoctrineMigrations/Collector/migrations.html.twig", "/var/www/project/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/migrations.html.twig");
+        return new Source("", "@DoctrineMigrations/Collector/migrations.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/doctrine/doctrine-migrations-bundle/Resources/views/Collector/migrations.html.twig");
     }
 }

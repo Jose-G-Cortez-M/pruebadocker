@@ -58,6 +58,6 @@ class __TwigTemplate_a771eb2ae210182afa4234ef1cb9b666b0f938d65f093c4d7be5bcf6c8b
 
     public function getSourceContext()
     {
-        return new Source("", "cable/_movement_form.html.twig", "/var/www/project/templates/cable/_movement_form.html.twig");
+        return new Source("", "cable/_movement_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/cable/_movement_form.html.twig");
     }
 }

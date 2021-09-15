@@ -127,6 +127,6 @@ class __TwigTemplate_b2457013bbca5ae24b17659d05f922e66fa2ad36f66e13c02b693b9116f
 
     public function getSourceContext()
     {
-        return new Source("", "@VichUploader/Collector/icon_white.html.twig", "/var/www/project/vendor/vich/uploader-bundle/templates/Collector/icon_white.html.twig");
+        return new Source("", "@VichUploader/Collector/icon_white.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/vich/uploader-bundle/templates/Collector/icon_white.html.twig");
     }
 }

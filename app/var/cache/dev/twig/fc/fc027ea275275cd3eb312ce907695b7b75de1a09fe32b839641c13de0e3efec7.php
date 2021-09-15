@@ -141,6 +141,6 @@ class __TwigTemplate_eb196a2e755c8e91a88853c50d0937577eea4815666df831fbf5c0b9737
         </div>
     </div>
 {% endblock %}
-", "cable/new.html.twig", "/var/www/project/templates/cable/new.html.twig");
+", "cable/new.html.twig", "/home/josegcm/monolithicEquipanelec/templates/cable/new.html.twig");
     }
 }

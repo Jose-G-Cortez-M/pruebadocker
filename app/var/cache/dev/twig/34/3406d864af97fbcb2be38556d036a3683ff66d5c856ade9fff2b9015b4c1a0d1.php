@@ -120,6 +120,6 @@ class __TwigTemplate_e43aae29ed7732074b870cdf8cfff5dd56a074817ac4c685368e27e8878
             </div>
         </div>
     </div>
-{% endblock %}", "homepage/update.html.twig", "/var/www/project/templates/homepage/update.html.twig");
+{% endblock %}", "homepage/update.html.twig", "/home/josegcm/monolithicEquipanelec/templates/homepage/update.html.twig");
     }
 }

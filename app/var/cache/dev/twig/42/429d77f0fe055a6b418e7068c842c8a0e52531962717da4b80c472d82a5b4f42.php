@@ -72,6 +72,6 @@ class __TwigTemplate_8da28efe414a1c2cf41bb2acef7579e7143f50311686e9e8391805e1427
     {
         return new Source("<form method=\"get\" action=\"{{ path('movement_new_material', {'id': material.id}) }}\">
     <button class=\"btn btn-success\" id=\"mov\"><i class=\"fas fa-dolly-flatbed\"> Movimientos</i></button>
-</form>", "material/_movement_form.html.twig", "/var/www/project/templates/material/_movement_form.html.twig");
+</form>", "material/_movement_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/material/_movement_form.html.twig");
     }
 }

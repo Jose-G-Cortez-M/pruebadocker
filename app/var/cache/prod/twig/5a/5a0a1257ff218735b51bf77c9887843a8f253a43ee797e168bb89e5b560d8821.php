@@ -167,6 +167,6 @@ class __TwigTemplate_78c63117c2164102de734832a17abbb6e7537337f38998e54685cced6b1
 
     public function getSourceContext()
     {
-        return new Source("", "foundation_6_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/foundation_6_layout.html.twig");
+        return new Source("", "foundation_6_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/foundation_6_layout.html.twig");
     }
 }

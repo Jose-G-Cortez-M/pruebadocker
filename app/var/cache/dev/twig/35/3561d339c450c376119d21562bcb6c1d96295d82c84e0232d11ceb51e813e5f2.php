@@ -313,6 +313,6 @@ class __TwigTemplate_2620fb472f1b0f682fe357f93d10a3318469c4e7c638b84c726ebba48c3
     </table>
 
 {% endblock %}
-", "counter/index.html.twig", "/var/www/project/templates/counter/index.html.twig");
+", "counter/index.html.twig", "/home/josegcm/monolithicEquipanelec/templates/counter/index.html.twig");
     }
 }

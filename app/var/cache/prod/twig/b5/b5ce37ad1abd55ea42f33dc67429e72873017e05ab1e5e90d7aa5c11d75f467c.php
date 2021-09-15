@@ -159,6 +159,6 @@ class __TwigTemplate_c33b4c34b5753cd70294dc83eea4d85d5738ec0a6ca805db5a46c3c7ee3
 
     public function getSourceContext()
     {
-        return new Source("", "@VichUploader/Form/fields.html.twig", "/var/www/project/vendor/vich/uploader-bundle/templates/Form/fields.html.twig");
+        return new Source("", "@VichUploader/Form/fields.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/vich/uploader-bundle/templates/Form/fields.html.twig");
     }
 }

@@ -60,6 +60,6 @@ class __TwigTemplate_aaa3f9416510fbe7073dad32384c9583d3e7b5f99c84c0e74daa059e7aa
 
     public function getSourceContext()
     {
-        return new Source("", "project/_showObs_form.html.twig", "/var/www/project/templates/project/_showObs_form.html.twig");
+        return new Source("", "project/_showObs_form.html.twig", "/home/josegcm/monolithicEquipanelec/templates/project/_showObs_form.html.twig");
     }
 }

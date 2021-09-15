@@ -291,6 +291,6 @@ class __TwigTemplate_dbafa6824a983dc8d73972cd6973fa2b5f758c3d317f025c55811e61397
         </tbody>
     </table>
 {% endblock %}
-", "@VichUploader/Collector/mapping_collector.html.twig", "/var/www/project/vendor/vich/uploader-bundle/templates/Collector/mapping_collector.html.twig");
+", "@VichUploader/Collector/mapping_collector.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/vich/uploader-bundle/templates/Collector/mapping_collector.html.twig");
     }
 }

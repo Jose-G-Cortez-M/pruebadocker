@@ -287,6 +287,6 @@ class __TwigTemplate_823bf5ce20a12a2362162ed3b05063246f7c9490a67196818baaddc31d0
     </table>
 
 {% endblock %}
-", "movement/filteredMovement.html.twig", "/var/www/project/templates/movement/filteredMovement.html.twig");
+", "movement/filteredMovement.html.twig", "/home/josegcm/monolithicEquipanelec/templates/movement/filteredMovement.html.twig");
     }
 }

@@ -1716,6 +1716,6 @@ body.outlook p {
 
     public function getSourceContext()
     {
-        return new Source("", "@email/zurb_2/main.css", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/main.css");
+        return new Source("", "@email/zurb_2/main.css", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/main.css");
     }
 }

@@ -248,6 +248,6 @@ class __TwigTemplate_abad9c174daa39db5af229da6e312e9e6e49a4bb788a1b3b62e712b4858
 
     public function getSourceContext()
     {
-        return new Source("", "tailwind_2_layout.html.twig", "/var/www/project/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
+        return new Source("", "tailwind_2_layout.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
     }
 }

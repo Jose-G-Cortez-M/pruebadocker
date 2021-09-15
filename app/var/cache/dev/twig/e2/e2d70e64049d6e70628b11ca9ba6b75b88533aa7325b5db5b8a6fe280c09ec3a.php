@@ -330,6 +330,6 @@ class __TwigTemplate_84f786ce039cc19c38d77d38d457130a53a7b07e409141efa8a226ee79c
     {% endif %}
 
 {% endblock %}
-", "@WebProfiler/Profiler/results.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/results.html.twig");
+", "@WebProfiler/Profiler/results.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/results.html.twig");
     }
 }

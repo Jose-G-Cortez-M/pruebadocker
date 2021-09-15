@@ -164,10 +164,10 @@ final class Versions
   'twig/twig' => 'v3.3.2@21578f00e83d4a82ecfa3d50752b609f13de6790',
   'vich/uploader-bundle' => '1.18.0@c5250c8d6a072960250ce5130e68a5693b3b48dd',
   'webmozart/assert' => '1.10.0@6964c76c7804814a842473e0c8fd15bab0f18e25',
-  'symfony/polyfill-ctype' => '*@',
-  'symfony/polyfill-iconv' => '*@',
-  'symfony/polyfill-php72' => '*@',
-  '__root__' => '1.0.0+no-version-set@',
+  'symfony/polyfill-ctype' => '*@089ba849bbc8778fc3da4e7d95ef73d825cff843',
+  'symfony/polyfill-iconv' => '*@089ba849bbc8778fc3da4e7d95ef73d825cff843',
+  'symfony/polyfill-php72' => '*@089ba849bbc8778fc3da4e7d95ef73d825cff843',
+  '__root__' => 'dev-main@089ba849bbc8778fc3da4e7d95ef73d825cff843',
 );
 
     private function __construct()

@@ -900,6 +900,6 @@ class __TwigTemplate_5e6b095783c4060995a8ad33a51b92d16fe6b665867ca78d54f0598b254
         {% endautoescape %}</script>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
     }
 }

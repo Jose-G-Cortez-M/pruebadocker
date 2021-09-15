@@ -226,6 +226,6 @@ class __TwigTemplate_25fa26804a661c307c8dd847e81a72e87bacaeebce8fae904eb9985af04
 
     public function getSourceContext()
     {
-        return new Source("", "material/index.html.twig", "/var/www/project/templates/material/index.html.twig");
+        return new Source("", "material/index.html.twig", "/home/josegcm/monolithicEquipanelec/templates/material/index.html.twig");
     }
 }

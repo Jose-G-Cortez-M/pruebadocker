@@ -227,6 +227,6 @@ class __TwigTemplate_f25c6c176abaa7dc33305bf7ef0e8152e0efcdd7eeebc597e8dc5330824
         </div>
     {% endif %}
 {% endblock %}
-", "@WebProfiler/Collector/exception.html.twig", "/var/www/project/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
+", "@WebProfiler/Collector/exception.html.twig", "/home/josegcm/monolithicEquipanelec/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.html.twig");
     }
 }
